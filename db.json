@@ -1,0 +1,372 @@
+{
+  "posts": [
+    {
+      "id": "a",
+      "title": "1st post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 123,
+        "likes": 10,
+        "dislikes": 2
+      }
+    },
+    {
+      "id": "b",
+      "title": "4th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 127,
+        "likes": 5,
+        "dislikes": 0
+      }
+    },
+    {
+      "id": "c",
+      "title": "5th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 15,
+        "likes": 0,
+        "dislikes": 1
+      }
+    },
+    {
+      "id": "d",
+      "title": "6th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 175,
+        "likes": 11,
+        "dislikes": 12
+      }
+    },
+    {
+      "id": "e",
+      "title": "7th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 195,
+        "likes": 10,
+        "dislikes": 22
+      }
+    },
+    {
+      "id": "f",
+      "title": "8th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit.",
+      "statistics": {
+        "views": 85,
+        "likes": 10,
+        "dislikes": 0
+      }
+    },
+    {
+      "id": "g",
+      "title": "9th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "statistics": {
+        "views": 15,
+        "likes": 0,
+        "dislikes": 2
+      }
+    },
+    {
+      "id": "h",
+      "title": "10th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 99,
+        "likes": 65,
+        "dislikes": 0
+      }
+    },
+    {
+      "id": "i",
+      "title": "11",
+      "text": "Lorem ipsumsuscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 222,
+        "likes": 25,
+        "dislikes": 1
+      }
+    },
+    {
+      "id": "j",
+      "title": "12th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit?",
+      "statistics": {
+        "views": 120,
+        "likes": 11,
+        "dislikes": 13
+      }
+    },
+    {
+      "id": "k",
+      "title": "14th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 56,
+        "likes": 12,
+        "dislikes": 0
+      }
+    },
+    {
+      "id": "l",
+      "title": "15",
+      "text": "officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 201,
+        "likes": 67,
+        "dislikes": 3
+      }
+    },
+    {
+      "id": "m",
+      "title": "16th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 85,
+        "likes": 46,
+        "dislikes": 10
+      }
+    },
+    {
+      "id": "n",
+      "title": "17th",
+      "text": "suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 176,
+        "likes": 95,
+        "dislikes": 8
+      }
+    },
+    {
+      "id": "o",
+      "title": "18th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis est nihil ut reprehenderit? Quia, officiis, illo explicabo delectus dicta dolorum quaerat numquam culpa reiciendis necessitatibus consequuntur laborum quisquam accusantium velit.",
+      "statistics": {
+        "views": 78,
+        "likes": 42,
+        "dislikes": 26
+      }
+    },
+    {
+      "id": "p",
+      "title": "19th post title!",
+      "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "statistics": {
+        "views": 61,
+        "likes": 14,
+        "dislikes": 1
+      }
+    },
+    {
+      "id": "q",
+      "title": "20",
+      "text": "Lorem ipnda quam aliquid quod. Temporibus suscipit illo facere exercitationem, fugiat alias doloremque quaerat maiores aut qui ut consequuntur eaque sed nulla!",
+      "statistics": {
+        "views": 202,
+        "likes": 102,
+        "dislikes": 31
+      }
+    },
+    {
+      "title": "21",
+      "text": "21 textrshdhfgfhghgfhfghgf",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "LCm2nDZ3mjw"
+    },
+    {
+      "title": "22",
+      "text": "rewwerwerewrw",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "k70CRHKz4Nc"
+    },
+    {
+      "title": "23",
+      "text": "rwerwerwerewrqwxghfjhjjh,kj",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "dZmlI6kVg_0"
+    },
+    {
+      "title": "27",
+      "text": "2727",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "LW2CbrEUFig"
+    },
+    {
+      "title": "28",
+      "text": "2828",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "PGS_wZ85ask"
+    },
+    {
+      "title": "29",
+      "text": "2929",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "zIhIflXr5Yk"
+    },
+    {
+      "title": "32",
+      "text": "3232",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "091b85ZGqJg"
+    },
+    {
+      "title": "33",
+      "text": "33",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "mkbhE3Ebouw"
+    },
+    {
+      "title": "34",
+      "text": "3434",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "N9cFDnXdilY"
+    },
+    {
+      "title": "35",
+      "text": "3535",
+      "statistics": {
+        "views": 0,
+        "likes": 0,
+        "dislikes": 0
+      },
+      "id": "HRyBG-2DDms"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "test123@mail.com",
+      "password": "123456",
+      "favorites": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "2",
+      "email": "test2@gmail.com",
+      "password": "Test_12",
+      "favorites": [
+        "c"
+      ]
+    },
+    {
+      "email": "test123@mail.com",
+      "password": "123456",
+      "id": "kQEVBBQ3vIY"
+    },
+    {
+      "email": "test1234@mail.com",
+      "password": "123456",
+      "id": "trc5THo5qsc"
+    },
+    {
+      "email": "lyoshakotik@gmail.com",
+      "password": "123456",
+      "id": "blyg0f5G2Jg",
+      "favorites": [
+        "3",
+        "2",
+        "LCm2nDZ3mjw",
+        "a0ohxqeNFR4",
+        "k70CRHKz4Nc",
+        "s_C1KHGldxU",
+        "YlWyH0bviR4",
+        "V62-Tagf0Xs",
+        "JRvWsMISAlA",
+        "zIhIflXr5Yk",
+        "LW2CbrEUFig",
+        "11",
+        "15",
+        "q"
+      ]
+    },
+    {
+      "email": "flapdance1@gmail.com",
+      "password": "123456",
+      "id": "DdOZwYdDH6A"
+    },
+    {
+      "email": "test999@mail.com",
+      "password": "123456",
+      "id": "oN0XMbgnulI"
+    },
+    {
+      "email": "alexkotik111@gmail.com",
+      "password": "123456",
+      "favorites": [],
+      "id": "ADBmjJuTrEI"
+    },
+    {
+      "email": "yasudgsa@fdjkfds.com",
+      "password": "123456",
+      "favorites": [
+        "a",
+        "b",
+        "c"
+      ],
+      "id": "gGz5i8yEyVI"
+    },
+    {
+      "email": "lyoshakotik4324@gmail.com",
+      "password": "123456",
+      "favorites": [],
+      "id": "K93OwhzUHWQ"
+    },
+    {
+      "email": "alexkotik4234362@gmail.com",
+      "password": "123456",
+      "favorites": [],
+      "id": "E7SgnaWSPXs"
+    },
+    {
+      "email": "lyoshakotik535@gmail.com",
+      "password": "123456",
+      "favorites": [
+        "q",
+        "i"
+      ],
+      "id": "Udwl-7d7GYg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
