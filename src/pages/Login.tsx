@@ -4,6 +4,7 @@ import {authService} from '../service/AuthService.ts';
 import {AuthContext} from '../context/AuthContext';
 import Input from '../components/ui/Input';
 import Button from '../components/ui/Button';
+import {RoutePaths} from "../router/routes.ts";
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -38,7 +39,7 @@ function Login() {
                 userData = await authService.login(email, password);
             }
             updateAuthContext(userData);
-            navigate('/posts');
+            navigate(RoutePaths.POSTS);
         } catch (e) {
             setError(e.message || 'Something went wrong');
         }

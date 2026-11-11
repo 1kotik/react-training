@@ -1,5 +1,5 @@
 import { Route, Routes, Navigate } from "react-router-dom";
-import { publicRoutes, privateRoutes } from "./routes.ts";
+import {publicRoutes, privateRoutes, RoutePaths} from "./routes.ts";
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
 
@@ -18,11 +18,11 @@ function AppRouter() {
             {privateRoutes.map(route => (
                 <Route
                     path={route.path}
-                    element={user ? <route.component /> : <Navigate to="/login" replace />}
+                    element={user ? <route.component /> : <Navigate to={RoutePaths.LOGIN} replace />}
                     key={route.path}
                 />
             ))}
-            <Route path="*" element={<Navigate to="/posts" replace />} />
+            <Route path="*" element={<Navigate to={RoutePaths.POSTS} replace />} />
         </Routes>
     );
 }

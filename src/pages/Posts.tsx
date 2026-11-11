@@ -10,6 +10,7 @@ import {getSortCriteria, getSortDirection} from "../utils/contants.ts";
 import {AuthContext} from "../context/AuthContext";
 import {usePosts} from "../hooks/usePosts";
 import {useToggleFavorite} from "../hooks/useToggleFavorite.ts";
+import {RoutePaths} from "../router/routes.ts";
 
 function Posts() {
     const {user} = useContext(AuthContext);
@@ -100,7 +101,7 @@ function Posts() {
             {user && (
                 <div className="posts-page__actions-top">
                     <button className="posts-page__add-btn" onClick={() => {
-                        navigate('/addpost')
+                        navigate(RoutePaths.ADD_POST)
                     }}>
                         Create post
                     </button>

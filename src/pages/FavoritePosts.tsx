@@ -1,4 +1,4 @@
-import {useCallback, useContext} from 'react';
+import {useCallback, useContext, useMemo} from 'react';
 import PostList from "../components/posts/PostList.tsx";
 import Loader from "../components/ui/Loader.tsx";
 import {AuthContext} from "../context/AuthContext";
@@ -9,7 +9,7 @@ import {useToggleFavorite} from "../hooks/useToggleFavorite.ts";
 
 function FavoritePosts() {
     const {user} = useContext(AuthContext);
-    const favoriteIds = user?.favorites || [];
+    const favoriteIds = useMemo(() => user?.favorites || [], [user?.favorites]);
     const POSTS_PER_PAGE = 3;
 
     const fetchFavorites = useCallback(async (page: number, limit: number) => {

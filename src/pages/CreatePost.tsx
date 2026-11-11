@@ -4,12 +4,13 @@ import Input from '../components/ui/Input';
 import Button from '../components/ui/Button';
 import {postService} from '../service/api/PostService';
 import {AuthContext} from '../context/AuthContext';
+import {RoutePaths} from "../router/routes.ts";
 
 function CreatePost() {
     const [title, setTitle] = useState('');
     const [text, setText] = useState('');
-    const [titleError, setTitleError] = useState('Title cannot be empty');
-    const [textError, setTextError] = useState('Text cannot be empty');
+    const [titleError, setTitleError] = useState('');
+    const [textError, setTextError] = useState('');
     const [submitError, setSubmitError] = useState('');
     const {user} = useContext(AuthContext);
     const navigate = useNavigate();
@@ -17,22 +18,28 @@ function CreatePost() {
     const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const value = e.target.value;
         setTitle(value);
-        if (!value.trim()) {
-            setTitleError('Title cannot be empty');
-        } else if (value.length > 100) {
+        if (value.length > 100) {
             setTitleError('Title cannot be longer than 100 symbols');
         } else {
             setTitleError('');
         }
     };
 
+    const handleTitleBlur = () => {
+        if (!title.trim()) {
+            setTitleError('Title cannot be empty');
+        }
+    };
+
     const handleTextChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
         const value = e.target.value;
         setText(value);
-        if (!value.trim()) {
+        setTextError('');
+    };
+
+    const handleTextBlur = () => {
+        if (!text.trim()) {
             setTextError('Text cannot be empty');
-        } else {
-            setTextError('');
         }
     };
 
@@ -45,7 +52,7 @@ function CreatePost() {
         try {
             setSubmitError('');
             await postService.create(title, text);
-            navigate('/posts');
+            navigate(RoutePaths.POSTS);
         } catch (e) {
             setSubmitError('Failed to create post. Please try again');
         }
@@ -63,6 +70,7 @@ function CreatePost() {
                         value={title}
                         onChange={handleTitleChange}
                         error={Boolean(titleError)}
+                        onBlur={handleTitleBlur}
                     />
                     {titleError && <div className="input-error-message">{titleError}</div>}
                 </div>
@@ -72,6 +80,7 @@ function CreatePost() {
                         placeholder="Text"
                         value={text}
                         onChange={handleTextChange}
+                        onBlur={handleTextBlur}
                     />
                     {textError && <div className="input-error-message">{textError}</div>}
                 </div>

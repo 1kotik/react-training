@@ -53,3 +53,10 @@ export interface AuthContextType {
     updateAuthContext: (userData: User) => void;
     logout: () => void;
 }
+
+export interface PostSearchParams {
+    _page?: number;
+    _per_page?: number;
+    _sort?: string;
+    [key: string]: boolean | number | string;
+}

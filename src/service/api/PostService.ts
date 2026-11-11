@@ -1,7 +1,7 @@
 import axios from "axios";
 import {API_URL} from "../../utils/contants.ts";
-import type {PostsResponse, SortCriteria, SortDirection, Post} from "../../types";
-import {SortDirection as DirectionEnum} from "../../types";
+import type {PostsResponse, Post, PostSearchParams} from "../../types";
+import {SortCriteria, SortDirection} from "../../types";
 
 class PostService {
     entityName: string = "posts";
@@ -13,13 +13,14 @@ class PostService {
         order?: SortDirection,
         query?: string
     ): Promise<PostsResponse> {
-        const sortParam = (order === DirectionEnum.DESC && sort) ? `-statistics.${sort}` : `statistics.${sort}`;
-
-        const params: any = {
+        const params: PostSearchParams = {
             _page: page,
-            _per_page: limit,
-            _sort: sortParam,
+            _per_page: limit
         };
+
+        if (sort) {
+            params._sort = (order === SortDirection.DESC && sort) ? `-statistics.${sort}` : `statistics.${sort}`;
+        }
 
         if (query && query.trim() !== "") {
             params["text:contains"] = query.trim();

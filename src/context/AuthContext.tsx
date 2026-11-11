@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from 'react';
+import {createContext, useState, useEffect, useMemo, useCallback} from 'react';
 import type { ReactNode } from 'react';
 import type { User, AuthContextType } from '../types';
 
@@ -15,7 +15,25 @@ interface AuthProviderProps {
 export function AuthProvider({ children }: AuthProviderProps) {
     const [user, setUser] = useState<User | null>(() => {
         const savedUser = localStorage.getItem('user');
-        return savedUser ? JSON.parse(savedUser) : null;
+        if (!savedUser) {
+            return null;
+        }
+        try {
+            const parsedUser = JSON.parse(savedUser);
+            const isValidUser =
+                typeof parsedUser === 'object' &&
+                parsedUser !== null &&
+                typeof parsedUser.id === 'string' &&
+                typeof parsedUser.email === 'string';
+            if (isValidUser) {
+                return parsedUser;
+            }
+            localStorage.removeItem('user');
+            return null;
+        } catch (e) {
+            localStorage.removeItem('user');
+            return null;
+        }
     });
 
     useEffect(() => {
@@ -26,17 +44,23 @@ export function AuthProvider({ children }: AuthProviderProps) {
         }
     }, [user]);
 
-    const login = (userData: User) => {
+    const login = useCallback((userData: User) => {
         setUser(userData);
-    };
+    }, []);
 
-    const logout = () => {
+    const logout = useCallback(() => {
         setUser(null);
         localStorage.removeItem('user');
-    };
+    }, []);
+
+    const authContext = useMemo(() => ({
+        user,
+        updateAuthContext: login,
+        logout,
+    }), [user, login, logout]);
 
     return (
-        <AuthContext.Provider value={{ user, updateAuthContext: login, logout }}>
+        <AuthContext.Provider value={authContext}>
             {children}
         </AuthContext.Provider>
     );

@@ -5,7 +5,7 @@ import type {User} from "../../types";
 class UserService {
     entityName: string = "users";
 
-    async getById(email: string): Promise<User | null> {
+    async getByEmail(email: string): Promise<User | null> {
         const response = await axios.get(`${API_URL}${this.entityName}`, {
             params: {
                 email: email

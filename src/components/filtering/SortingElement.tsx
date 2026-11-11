@@ -14,14 +14,14 @@ interface SortingElementProps {
 
 function SortingElement({icon, criteria, active, direction, onSort}: SortingElementProps) {
     return (
-        <div className="sorting-element" onClick={() => onSort(criteria)}>
+        <button className="sorting-element" onClick={() => onSort(criteria)}>
             <FontAwesomeIcon icon={icon}/>
             {active && (
                 direction == SortDirection.ASC
                     ? <FontAwesomeIcon icon={faArrowUp}/>
                     : <FontAwesomeIcon icon={faArrowDown}/>
             )}
-        </div>
+        </button>
     );
 }
 

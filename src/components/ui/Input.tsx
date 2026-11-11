@@ -9,9 +9,10 @@ interface InputProps {
     onChange?: React.ChangeEventHandler<HTMLInputElement>;
     type?: string;
     error?: boolean;
+    onBlur?: React.ChangeEventHandler<HTMLInputElement>;
 }
 
-function Input({ id, label, placeholder, name, value, onChange, type, error }: InputProps) {
+function Input({ id, label, placeholder, name, value, onChange, type, error, onBlur }: InputProps) {
     return (
         <div className="input-container">
             {label &&
@@ -26,6 +27,7 @@ function Input({ id, label, placeholder, name, value, onChange, type, error }: I
                    name={name}
                    onChange={onChange}
                    type={type}
+                   onBlur={onBlur}
             />
         </div>
     );

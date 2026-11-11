@@ -273,99 +273,21 @@
   ],
   "users": [
     {
-      "id": "1",
-      "email": "test123@mail.com",
-      "password": "123456",
+      "email": "test@gmail.com",
+      "password": "$2b$12$DxTejY8ig4DPyDEj62K6e.miZf.rL6ncgyoAuwe5Irpp.MR5/nIlq",
       "favorites": [
-        "a",
-        "b"
-      ]
-    },
-    {
-      "id": "2",
-      "email": "test2@gmail.com",
-      "password": "Test_12",
-      "favorites": [
-        "c"
-      ]
-    },
-    {
-      "email": "test123@mail.com",
-      "password": "123456",
-      "id": "kQEVBBQ3vIY"
-    },
-    {
-      "email": "test1234@mail.com",
-      "password": "123456",
-      "id": "trc5THo5qsc"
-    },
-    {
-      "email": "lyoshakotik@gmail.com",
-      "password": "123456",
-      "id": "blyg0f5G2Jg",
-      "favorites": [
-        "3",
-        "2",
-        "LCm2nDZ3mjw",
-        "a0ohxqeNFR4",
-        "k70CRHKz4Nc",
-        "s_C1KHGldxU",
-        "YlWyH0bviR4",
-        "V62-Tagf0Xs",
-        "JRvWsMISAlA",
-        "zIhIflXr5Yk",
-        "LW2CbrEUFig",
-        "11",
-        "15",
-        "q"
-      ]
-    },
-    {
-      "email": "flapdance1@gmail.com",
-      "password": "123456",
-      "id": "DdOZwYdDH6A"
-    },
-    {
-      "email": "test999@mail.com",
-      "password": "123456",
-      "id": "oN0XMbgnulI"
-    },
-    {
-      "email": "alexkotik111@gmail.com",
-      "password": "123456",
-      "favorites": [],
-      "id": "ADBmjJuTrEI"
-    },
-    {
-      "email": "yasudgsa@fdjkfds.com",
-      "password": "123456",
-      "favorites": [
-        "a",
-        "b",
-        "c"
-      ],
-      "id": "gGz5i8yEyVI"
-    },
-    {
-      "email": "lyoshakotik4324@gmail.com",
-      "password": "123456",
-      "favorites": [],
-      "id": "K93OwhzUHWQ"
-    },
-    {
-      "email": "alexkotik4234362@gmail.com",
-      "password": "123456",
-      "favorites": [],
-      "id": "E7SgnaWSPXs"
-    },
-    {
-      "email": "lyoshakotik535@gmail.com",
-      "password": "123456",
-      "favorites": [
+        "i",
         "q",
-        "i"
+        "l",
+        "e",
+        "n",
+        "d",
+        "b",
+        "a",
+        "j",
+        "h"
       ],
-      "id": "Udwl-7d7GYg"
+      "id": "7NHQndLzQtY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -38,7 +38,7 @@ function PostItem({post, onDelete, onUpdate, onToggleFavorite, isFavorite, isEdi
             return;
         }
         setError('');
-        onUpdate(post.id, editTitle, editText);
+        onUpdate?.(post.id, editTitle, editText);
         setIsEditing(false);
     };
 
